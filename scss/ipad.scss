@@ -1,0 +1,445 @@
+
+
+
+    .ipad-main-body{
+        width: 100%;
+        background-color: black;
+        color: aliceblue;
+        padding: 30px 0;
+
+
+        .ipad-main{
+            width: 80%;
+            margin: 25px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .ipad-air{
+                width: 40%;
+                text-align: center;
+
+                .new{
+                    color: orangered;
+                    // margin: 5px 0;
+                }
+
+                h1{
+                     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                
+                }
+                h2{
+                    font-size: 2rem;
+                    // padding: 8px 0;
+                }
+
+                .ipad-price{
+                    margin-bottom: 20px;
+                }
+            }
+
+            .ipad-img{
+                width: 60%;
+                text-align: center;
+                img{
+                    width: 70%;
+                    background-size: cover;
+                }
+            }
+
+            @media (max-width:740px) {
+                 display: block;
+                 text-align: center;
+                 
+                .ipad-air{
+                    width: 100%;
+
+                }
+
+                .ipad-img{
+                    width: 80%;
+                    margin: 40px auto; 
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+
+        .fst-para{
+            padding: 20px;
+            background-color: #1d1d1f;  
+        }
+    }
+
+
+
+
+    /* =====================================
+          ipad pro section start here
+    *==================================*/
+
+    .main-ipad-pro{
+        width: 100%;
+        margin: 50px 0;
+        text-align: center;
+       
+        .ipad-pro-img{
+            background-image: url('../images/ipad-img/ipads/ipad-pro-hero.jpg');
+            width: 90%;
+            float: right;
+            height: 698px;
+            color: #1d1d1f;
+            font-size: 2rem;
+           
+
+
+            @media (max-width:1024px) { 
+                  background-image: url('../images/ipad-img/ipads/ipad-pro-hero-responsive-1024px.jpg');
+                  height: 474px;
+            }
+          
+            @media (max-width:740px) {
+                display: none;
+            }
+
+      }
+
+
+
+      .responsive-ipad-pro,.img-responsive{
+        display: none;
+
+        @media (max-width:740px) {
+            display: block;
+
+            img{
+                width: 70%;
+                float: right;
+                margin-top: 20px;
+            }
+
+
+            .ipad-headding{
+                font-size: 4rem;
+            }
+
+            .ipad-para{
+                font-size: 1.5rem;
+            }
+
+            .price-para{
+                font-size: 1.5rem;
+                margin: 10px 0;
+            }
+
+           
+            
+        }
+        @media (max-width:415px) {
+            .ipad-headding{
+                  font-size: 2.5rem;
+            }
+        }
+      }
+    }
+   
+    
+
+
+
+      .large-ipad-body{
+          display: flex;
+          width: 100%;
+          margin-top: 40px;
+
+          .large-ipad-data{
+                width: 40%;
+                text-align: center;
+                 }
+
+          .img-large{             
+              width: 60%;
+
+
+              .large-responsive{
+                display: none;
+              }
+
+            img{
+                width: 84%;
+                background-size: cover;
+            }
+         }
+
+          @media (max-width:740px) {
+                   display: block;
+
+                   .large-ipad-data,.img-large{
+                        width: 100%;
+
+                        .large-responsive{
+                            display: block;
+                        }
+                }
+
+                .img-main{
+                    display: none;
+                }
+
+          }
+      }
+
+
+
+      .main-ipad-mini{
+        width: 80%;
+        margin: 20px  auto ;
+        display: flex;
+
+        .ipad-mini-img{
+             width: 50%;
+
+             img{
+                width: 100%;
+                background-size: cover;
+             }
+        }
+
+
+        .ipad-mini{
+            width: 50%;
+        }
+
+        @media (max-width:740px) {
+            display: block;
+
+            .ipad-mini-img{
+                width: 70%;
+                margin: 0 auto;
+            }
+
+            .ipad-mini{
+                width: 100%;
+            }
+
+        }
+
+      }
+
+      /* =====================================
+         main-ipad-shoping section start here
+    *==================================*/
+
+      .main-ipad-shoping{
+
+        width: 90%;
+        margin: 20px auto;
+       background-color: #fafafa;
+       padding-bottom: 20px;
+
+        .ipad-headding{
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+
+        .shoping-body{
+
+            display: flex;
+            .row-ipad-pro{
+                display: flex;
+                width: 90%;
+
+                
+
+            .img-pro{
+                width: 32%;
+                text-align: center;
+                padding-bottom: 25px;
+                margin:  0 auto;
+
+                .pro-ipad-data{
+                    border-bottom: 1px solid #d2d2d7;
+                    padding-bottom: 20px;
+
+                }
+
+                img{
+                    width: 80%;
+                    background-size: cover;
+                }
+
+                .shoping-hedding{
+                    font-size: 2.5rem;
+                    margin-top: 15px;
+                }
+
+                p{
+                    padding-top: 5px;
+                    font-size: 1.3rem;
+
+                    .btn-ipad{
+                        color: #fafafa;
+                    }
+                  }
+                .btn-shop{
+                    margin: 10px 0;
+
+                }
+
+                .main-display{
+                    font-size: 1.5rem;
+                    margin-top: 10px;
+                    height: 125px;
+                  
+
+                    .para-hedline{
+                        font-size: 1.9rem;
+                        font-weight: 500;
+                    }
+                }
+
+                .m-chip-comman{
+
+                    height: 90px;
+                    margin-top: 20px;
+
+                    img{
+                        width: 38px;
+                    }
+                }
+
+                .ultra-camera{
+                    margin-top: 26px;
+                }
+
+              .pencil  { 
+                img{
+                    width: 62px;
+                    height: 6px;
+                   }
+                   
+                }
+            }
+
+            .Keyboard{
+
+                height: 150px;
+                border-bottom: 1px solid #d2d2d7;
+                img{
+                    width: 26%;
+                }
+
+                .magic-img{
+                    width: 35%;
+                }
+
+                @media (max-width:1024px) {
+                    margin-top: 30px;
+             }
+
+                // @media (max-width:600px) {
+                //        margin-top: 30px;
+                // }
+            }
+
+            .ipad{
+                width: 31%;
+               }
+            
+
+            .main-ipad{
+                  width: 39%;
+
+                  @media (max-width:600px) {
+                    width: 50%;
+                  }
+                 }  
+                 
+                 
+                
+
+            @media (max-width:991px) {
+                margin: 0 auto;
+                padding: 20px 0;
+                    } 
+
+                    @media (max-width:600px) {
+                        display: block;
+                     
+                    }
+
+                    .comman-width-ipad{
+                        @media (max-width:600px) {
+                                 width: 50%;
+                             }
+
+                             @media (max-width:390px) {
+                                width: 70%;
+                            }
+                   }
+                
+                    
+            }
+
+            @media (max-width:991px) {
+                display: block;
+            }
+        } 
+
+        .shop-ipad{
+            text-align: center;
+            padding: 30px 0;
+           
+                a{
+                    font-size: 2rem;
+                    margin-left: 2.2rem;
+
+                    @media (max-width:420px) {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+
+
+        }
+
+       /* =====================================
+         main-ipad-shoping end here
+    *==================================*/
+
+
+
+
+//     <!-- ================================
+//     education section start here
+// ==================================   -->
+
+
+       .ipados-main{
+
+           width: 90%;
+           margin: 30px auto;
+           text-align: center;
+
+
+        .ipados-data{
+
+            padding: 30px 0;
+            p{
+                padding: 10px 0;
+            }
+        }
+
+        .ipados-img{
+            img{
+                width: 100%;
+                background-size: cover;
+            }
+
+        }
+       }
