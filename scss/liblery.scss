@@ -180,8 +180,7 @@
     
 
 
-    .btn-ipad{
-                    
+    .btn-ipad{         
         padding: 7px 15px;
         background-color: #0071e3;
         border-radius: 29px;
@@ -196,24 +195,22 @@
          
      @media (max-width:415px) {
           font-size: 1rem;
-     }   
-
-
+       }   
     }
 
 
-    /*  ===========================
-           data for ipad section*
-        ==========================*/
+        /*  ===========================
+                data for ipad section
+             ==========================*/
 
         .center-data-ipad{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-        }
+         }
 
-    .comman-data{
+    .comman-data{  
         h1{
             color: #1d1d1f;
             font-weight: 600;
@@ -251,5 +248,28 @@
         }
     }
 
-
+    .comman-width-data{
+          width: 95%;
+          margin: 30px auto;
+          text-align: center;
+       }
    
+
+    .comman-image{
+        width: 100%;
+        background-size: cover;
+        margin-top: 20px;
+      }
+
+
+    .ipad-hedding{
+         padding: 50px 0;
+         font-weight: 600;
+         font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+         }
+
+
+         .why-ipad-comman{
+            width: 45%;
+            margin: 0 auto;
+        }
