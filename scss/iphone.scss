@@ -1,0 +1,79 @@
+
+    //     <!-- ======================================
+    //     iphone 13  section starts here
+    //  ======================================== -->
+
+
+     .iphone-main{
+         width: 90%;
+         margin:  20px auto;
+
+
+         .iphone-data{
+           
+             font-weight: 600;
+
+             @media (max-width:600px) {
+                 h1{
+                    font-size: 3rem;
+                 }
+
+                 p{
+                    font-size: 1.5rem;
+                 }
+                 
+             }
+         }
+
+         .iphone-img{
+            width: 60%;
+            margin: 0 auto;
+
+            img{
+                width: 100%;
+                background-size: cover;
+            }
+         }
+     }
+
+
+
+            //      <!-- ======================================
+            //     new-iphone-main  section starts here
+            //   ======================================== -->
+
+
+                    .new-iphone-main {
+
+                        display: flex;
+
+                        .new-iphone-data{
+
+                            .p-new{
+                                color: orangered;
+                            }
+                            .comman-fonts{
+                                // color: linear-gradient(to right, #1e3791 0%,
+                                //   #2948b1 40%, #3153c6 55%, #385fda 60%);
+                                color: #385fda;
+                            }
+                        }
+                         
+                        .new-iphone-img{
+                            img{
+                                width: 80%;
+                                background-size: cover;
+                            }
+
+                        }
+
+                        @media (max-width:600px) {
+                               display: block;
+
+                               .new-iphone-img{
+                                margin-top: 30px;
+                               }
+                              
+                        }
+
+                    }

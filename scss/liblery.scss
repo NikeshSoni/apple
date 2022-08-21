@@ -10,6 +10,35 @@
     font-size: 2rem;
 }
 
+   .comman-font{
+    font-size: 1.5rem;
+
+    @media (max-width:540px) {
+        font-size: 1rem;
+    }
+   }
+
+   .comman-size-font{
+          font-size: 3rem;
+   }
+
+   .comman-fonts{
+       font-size: 4.5rem;
+
+       @media (max-width:991px) {
+             font-size: 3rem;
+       }
+
+       @media (max-width:600px) {
+                 font-size: 2rem;
+          }
+
+          @media (max-width:350px) {
+            font-size: 1.5rem;
+     }
+
+   }
+
 .cta-links{
     padding-top: 10px;
 
@@ -178,8 +207,7 @@
     //  section of i pad class
 
     
-
-
+    
     .btn-ipad{         
         padding: 7px 15px;
         background-color: #0071e3;
@@ -273,3 +301,60 @@
             width: 45%;
             margin: 0 auto;
         }
+
+
+
+        .icloud-comman{
+            width: 95%;
+            margin: 20px auto;
+        }
+
+
+        .icloud-learn{
+            padding-top: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // ======================
+            //   Use class for ipone PAGE
+    //   ==========================================
+
+
+
+    .btn-iphone{
+        ul{
+            li{
+                list-style: none;
+                display: inline-block;
+                row-gap: 20px;
+                font-family: unset;
+
+                a{
+                    text-decoration: none;
+                }
+
+                .buy{
+                    color: #fff;
+                    margin-right: 15px;
+
+                  
+                }
+            }
+        }
+     }
+
+
+      
