@@ -860,7 +860,6 @@ body{
                         font-size: 2.5rem;
                     }
                 }
-
                
             }
 
@@ -872,21 +871,21 @@ body{
                     background-repeat: no-repeat;
                 }
             }
-        }
 
-
-        @media (max-width:540px) {
-            .miain-smarter{
+            @media (max-width:540px) {
                 display: block;
-    
+
                 .smarter{
                     width: 100%;
                     padding: 30px 0;
                 }
 
                 .smarter-img{
-                    width: 80%;
-                    margin: 0 auto;
+                    width: 100%;
+                    // margin: 0 auto;
+                   img{
+                    padding: 0 auto;
+                   }
                 }
             }
         }

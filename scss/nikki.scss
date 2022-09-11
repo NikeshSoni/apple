@@ -41,25 +41,12 @@ html{
 
 
        .main-container{
-            .fst-para {
-                text-align: center;
-               
-                P{
-                    font-size: 1.5rem;
-                }
-            }
 
             .home-img-1{
                 display: flex;
 
-              
-  
                 .data-1{
-                    display: flex;
                     width: 50%;
-                    text-align: center;
-                    justify-content: center;
-                    align-items: center;
                     height:auto;
                     background-color: #fff;
 
@@ -75,20 +62,50 @@ html{
                             margin: 10px 0;
                         }
                         p{
-                            font-size: 2rem;
                             color: gray;
                         }
                       
                         .a-tag{
-                            .link{
-                                font-size: 2rem;
-                            }
-
                             .link-1{
                                 padding-left: 20px;
                             }
                         }
                     }
+
+                    @media (max-width:540px) {
+                    
+                        // .data-1{
+                           .main-data{
+                               h2{
+                                   font-weight: 500;
+                                   font-size: 4.2rem;
+                               }
+                           }
+                        // }   
+                    }
+
+                    @media (max-width:415px) {
+                    
+                      
+                           .main-data{
+                               h2{
+                                   font-weight: 100;
+                                   font-size: 3.2rem;
+                               }
+                               h3{
+                                font-size: 2rem;
+                               }
+                            p{
+                                font-size: 1.5rem;
+                            }  
+                            .a-tag{
+                                .link{
+                                    font-size: 1.5rem;
+                                }
+                              }
+                           }
+                    }
+              }
 
                 }
            
@@ -101,45 +118,9 @@ html{
                     }
                 }
 
-                @media (max-width:540px) {
-                    
-                    .data-1{
-                       .main-data{
-                           h2{
-                               font-weight: 500;
-                               font-size: 4.2rem;
-                           }
-                       }
-                    }   
-                }
+              
 
-                @media (max-width:415px) {
-                    
-                    .data-1{
-                       .main-data{
-                           h2{
-                               font-weight: 100;
-                               font-size: 3.2rem;
-                           }
-                           h3{
-                            font-size: 2rem;
-                           }
-                        p{
-                            font-size: 1.5rem;
-                        }  
-                        .a-tag{
-                            .link{
-                                font-size: 1.5rem;
-                            }
-                        }
-                       }
-                    }   
-                }
-
-
-           
-
-          }
+              
 
           @media (max-width:991px) {
             .home-img-1{
@@ -168,11 +149,7 @@ html{
 
               ==================================== */
 
-            //   @media (max-width:1920px) {
-            //     .home-img-2{
-            //         height: 840px;
-            //     }
-            // }
+           
           .home-img-2{
                 background-image: url("../images/home-imgs/hero_mbp13__f88jcbca0ve6_large-main-2-new-1.jpg");
                 width: 100%;
@@ -195,7 +172,8 @@ html{
                         font-size: 3rem;
                     }
 
-                    p{  font-size: 2rem;
+                    p{  
+                        font-size: 2rem;
                         color: gray;
                     }
                     
