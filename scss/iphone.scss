@@ -63,21 +63,12 @@
 
 
                     .new-iphone-main {
-
                         display: flex;
                         background-color: #fbfbfd;
 
-
                         .new-iphone-data{
-
-
                             .p-new{
                                 color: orangered;
-                            }
-                            .comman-fonts{
-                                // color: linear-gradient(to right, #1e3791 0%,
-                                //   #2948b1 40%, #3153c6 55%, #385fda 60%);
-                                // color: #385fda;
                             }
                         }
                          
@@ -86,7 +77,6 @@
                                 width: 80%;
                                 background-size: cover;
                             }
-
                         }
 
                         @media (max-width:600px) {
@@ -94,8 +84,7 @@
 
                                .new-iphone-img{
                                 margin-top: 30px;
-                               }
-                              
+                               }    
                         }
 
                     }
