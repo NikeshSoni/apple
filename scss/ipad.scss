@@ -1,5 +1,6 @@
 
 
+   
 
     .ipad-main-body{
         width: 100%;
@@ -152,16 +153,16 @@
 
       .large-ipad-body{
           display: flex;
-          width: 100%;
-          margin-top: 40px;
+        //   width: 100%;
+        //   margin-top: 40px;
 
           .large-ipad-data{
-                width: 40%;
+                width: 50%;
                 text-align: center;
                  }
 
           .img-large{             
-              width: 60%;
+              width: 50%;
 
 
               .large-responsive{
@@ -195,8 +196,8 @@
 
 
       .main-ipad-mini{
-        width: 80%;
-        margin: 20px  auto ;
+        // width: 80%;
+        // margin: 20px  auto;
         display: flex;
 
         .ipad-mini-img{
@@ -235,10 +236,10 @@
 
       .main-ipad-shoping{
         box-shadow: 3px 3px 5px gray;
-        width: 90%;
+        width: 95%;
         margin: 20px auto;
-       background-color: #fafafa;
-       padding-bottom: 20px;
+        background-color: #fafafa;
+        padding-bottom: 20px;
 
         .ipad-headding{
             text-align: center;
