@@ -18,6 +18,17 @@
               });
 
 
+            //   const niikki = document.querySelector(".nikki");
+            //   const suraj = document.querySelector(".suraj");
+
+            // document.querySelector(".main-Btn").addEventListener("click", function (main) {
+            //       const getData = niikki.value;
+            //       const newData = getData*newData;
+            //   })
+
+            //   document.querySelector( ".nikki").addEventListener()
+
+
 
 
            
